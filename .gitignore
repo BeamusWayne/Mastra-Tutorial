@@ -1,0 +1,11 @@
+.venv/
+site/
+node_modules/
+.DS_Store
+.env
+*.db
+*.sqlite
+.mastra/
+.build/
+dist/
+

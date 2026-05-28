@@ -1,0 +1,98 @@
+site_name: Mastra 中文教程
+site_description: 面向 TypeScript 开发者的 Mastra 中文实战教程
+site_author: BeamusWayne
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: 切换到暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: 切换到亮色模式
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - 首页: index.md
+  - 前言:
+    - 为什么写这本教程: preface/why-this-book.md
+    - 怎么读: preface/how-to-read.md
+  - 第一部 · 基础:
+    - 0. Mastra 是什么: part-1-foundation/00-what-is-mastra.md
+    - 1. 核心心智模型: part-1-foundation/01-mental-model.md
+    - 2. 安装与第一次运行: part-1-foundation/02-install.md
+    - 3. 项目结构: part-1-foundation/03-project-structure.md
+  - 第二部 · 实战:
+    - 4. 第一个 Agent: part-2-build/04-first-agent.md
+    - 5. Tool 设计: part-2-build/05-tools.md
+    - 6. Workflow 编排: part-2-build/06-workflows.md
+    - 7. Memory 记忆系统: part-2-build/07-memory.md
+    - 8. RAG 与 MCP: part-2-build/08-rag-and-mcp.md
+    - 9. 结构化输出与流式: part-2-build/09-structured-output-and-streaming.md
+    - 10. RequestContext: part-2-build/10-request-context.md
+    - 11. 多 Agent 协作: part-2-build/11-multi-agent.md
+  - 第三部 · 生产化:
+    - 12. 观测与评测: part-3-production/09-observability-evals.md
+    - 13. Guardrails 与 Processors: part-3-production/12-guardrails-processors.md
+    - 14. 部署路线: part-3-production/10-deploy.md
+    - 15. 安全与权限: part-3-production/11-security.md
+  - 附录:
+    - A. API 速查: appendix/A-api-cheatsheet.md
+    - B. 故障排查: appendix/B-troubleshooting.md
+    - C. 资料来源: appendix/C-sources.md
+
+copyright: Copyright &copy; 2026 BeamusWayne · Unofficial Mastra Chinese Guide

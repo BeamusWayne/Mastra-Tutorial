@@ -1,0 +1,29 @@
+{
+  "name": "travel-concierge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "ask": "tsx src/scripts/ask.ts",
+    "workflow": "tsx src/scripts/run-workflow.ts",
+    "structured": "tsx src/scripts/structured.ts",
+    "stream": "tsx src/scripts/stream.ts",
+    "context": "tsx src/scripts/request-context.ts",
+    "supervisor": "tsx src/scripts/supervisor.ts"
+  },
+  "dependencies": {
+    "@mastra/core": "^1.37.1",
+    "@mastra/libsql": "latest",
+    "@mastra/mcp": "^1.8.1",
+    "@mastra/memory": "^1.20.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "mastra": "^1.10.2",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
