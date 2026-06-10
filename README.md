@@ -17,7 +17,7 @@
 
 - Mastra 官方仓库：`mastra-ai/mastra`，参考 commit `ad911714f6be2538b8bd20afac50221c388ec65c`
 - npm 包版本检查时间：2026-05-28
-- 当前 npm 版本：`@mastra/core@1.37.1`、`mastra@1.10.2`、`@mastra/memory@1.20.0`、`@mastra/mcp@1.8.1`
+- 当前 npm 版本：`@mastra/core@1.41.0`、`mastra@1.12.2`、`@mastra/memory@1.20.2`、`@mastra/mcp@1.9.1`
 
 ## 这本教程适合谁
 
