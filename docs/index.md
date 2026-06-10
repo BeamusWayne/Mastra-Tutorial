@@ -51,14 +51,14 @@ flowchart LR
 
 ## 当前版本基线
 
-本教程在 2026-05-28 校准了以下来源：
+本教程在 2026-05-28 校准了以下来源，并在 2026-06-10 把配套示例项目升级到当时的最新稳定版：
 
 | 项目 | 版本或来源 |
 | - | - |
 | Mastra 仓库 | `mastra-ai/mastra@ad911714f6be2538b8bd20afac50221c388ec65c` |
-| `@mastra/core` | `1.37.1` |
-| `mastra` CLI | `1.10.2` |
-| `@mastra/memory` | `1.20.0` |
-| `@mastra/mcp` | `1.8.1` |
+| `@mastra/core` | `1.41.0` |
+| `mastra` CLI | `1.12.2` |
+| `@mastra/memory` | `1.20.2` |
+| `@mastra/mcp` | `1.9.1` |
 
 完整来源见 [资料来源](appendix/C-sources.md)。

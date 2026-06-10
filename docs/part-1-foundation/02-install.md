@@ -18,7 +18,7 @@ npx mastra init
 
 建议使用：
 
-- Node.js 22.13 或更高版本。当前 Mastra `@mastra/core@1.37.1`、`mastra@1.10.2` 等包的 `engines` 均要求 `>=22.13.0`。
+- Node.js 22.13 或更高版本。当前 Mastra `@mastra/core@1.41.0`、`mastra@1.12.2` 等包的 `engines` 均要求 `>=22.13.0`。
 - npm、pnpm、yarn、bun 任意一种包管理器。
 - TypeScript。
 - 至少一个模型供应商 API Key。
